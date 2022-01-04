@@ -1,0 +1,109 @@
+:root {
+    --var-color-one: #f5efe1;
+    --var-color-two: #161616;
+    --var-color-three: #ebddbd;
+}
+
+@font-face{
+    font-family: harmond;
+    src: url('./fonts/Harmond-SemiBoldCondensed.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: harmond, sans-serif;
+    color: var(--var-color-two);
+}
+
+html, body {
+    background-color: var(--var-color-one);
+    height: 450px;
+}
+
+h1 {
+    position: absolute;
+    top: 30vh;
+    width: 100%;
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 2px;
+}
+
+span {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    padding-left: 20px;
+    font-size: 2rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+h3 { 
+    position: absolute;
+    top: 75vh;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+}
+
+p {
+    display: column;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.text {
+    display: column;
+    transform: translateY(-50px);
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.desc {
+    position: absolute;
+    top: 85vh;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.temp {
+    position: absolute;
+    top: 92vh;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.notfound {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+input[type="text"]{
+    padding: 30px 40px;
+    height: 0%;
+    width: 60%;
+    transform: translate(34%, -100px);
+    background: var(--var-color-three);
+    border: 1px var(--var-color-one);
+    border-radius: 10px 10px 10px 10px;
+    font-size: 2rem;
+}
