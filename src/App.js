@@ -6,8 +6,7 @@ import About from "./About";
 import Contact from "./Contact";
 import NotFound from './NotFound';
 import Navbar from "./NavBar";
-
-//Fix Navbar
+import Historical from './Historical';
 
 function App() {
   return (
@@ -17,6 +16,7 @@ function App() {
         <Route index element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/historical" element={<Historical/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

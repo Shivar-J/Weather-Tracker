@@ -9,6 +9,7 @@ export default class NavBar extends React.Component{
                     <a href="/">Weather Tracker</a>
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
+                    <a href="/historical">Historical</a>
                 </span>
             </body>
         );

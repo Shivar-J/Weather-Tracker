@@ -10,7 +10,7 @@ export default class Home extends React.Component {
     handleSubmit = async (event) => {
         event.preventDefault();
         let text = this.state.text;
-        await fetch('http://10.0.0.240:8000/api/query', {
+        await fetch('http://0.0.0.0:8000/api/query', {
             method: 'POST',
             headers: {
                 'Content-Type' : 'text/plain'
