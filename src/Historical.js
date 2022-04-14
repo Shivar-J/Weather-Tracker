@@ -70,26 +70,3 @@ export default class Historical extends React.Component {
         )
     }
 }
-
-/*
-                
-                <form onSubmit={this.handleSubmit} className="input">
-                    <input type="text" 
-                        value={this.state.name} 
-                        onChange={(event) => {this.setState({ name: event.target.value })}} 
-                        className="inputValue" 
-                        placeholder="Enter a city...">
-                    </input>
-                </form> 
-                    <input type="text" 
-                        value={this.state.start_date} 
-                        onChange={(event) => {this.setState({ start_date: event.target.value })}}
-                        className="inputValue2"
-                        placeholder="Enter start date...">
-                    </input>
-                    <input type="text" 
-                        value={this.state.end_date} 
-                        onChange={(event) => {this.setState({ end_date: event.target.value })}}
-                        className="inputValue3"
-                        placeholder="Enter end date...">
-                    </input> */
